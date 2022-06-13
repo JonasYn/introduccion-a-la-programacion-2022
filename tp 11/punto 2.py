@@ -23,12 +23,9 @@ def es_primo(lista):
 
 def sumatoria(lista):
     suma = 0
-    contador = 0
-    promedio = 0
     for numero in lista:
-        suma += numero
-        contador += 1
-    promedio = suma // contador
+        suma += numero      
+    promedio = suma // len(lista)
     return suma, promedio
 
 def cuenta_factorial(numero):
