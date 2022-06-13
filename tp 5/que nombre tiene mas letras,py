@@ -1,0 +1,19 @@
+#Cree una función que reciba dos string como parámetro (nombre1 y nombre2),
+#y retorne True si nombre1 tiene más letras que nombre2, o False en caso
+#contrario.
+
+
+
+
+def nombre_t_f (x,y):
+    letras1 = len(x)
+    letras2 = len(y)
+    if letras1 > letras2:
+        return print (True)
+    elif letras2 > letras1:
+        return print (False)
+
+nombre1= "jonas"
+nombre2= "benjamin"
+
+nombre_t_f (nombre1,nombre2)

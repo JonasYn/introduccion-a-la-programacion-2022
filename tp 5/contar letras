@@ -1,0 +1,11 @@
+#Cree una función que reciba un string como parámetro, y retorne la cantidad de
+#letras que posee. Luego, utilice la función para escribir un programa que solicite
+#ingresar el nombre del usuario, y luego muestre en pantalla cuántas letras tiene
+#ese nombre.
+
+def contar_letras (x):
+   cantidad = len (x)
+   return print (f"el nombre {x} tiene {cantidad} letras") 
+
+nombre_usuario = input(f"ingrese su nombre")
+contar_letras (nombre_usuario)

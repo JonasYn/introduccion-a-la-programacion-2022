@@ -1,0 +1,12 @@
+#Modifique el script del ejercicio anterior para que la función retorne el resultado
+#en vez de mostrarlo. El programa debe seguir mostrando el resultado en
+#pantalla.
+
+def aritmetica (x,y):
+    suma = (x + y)
+    return print(suma)
+
+numero1= int(input(f"ingrese un numero"))
+numero2 = int(input(f"ingrese un numero"))
+
+aritmetica (numero1,numero2)

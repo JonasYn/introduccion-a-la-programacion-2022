@@ -1,0 +1,17 @@
+#Cree una función que reciba un string como parámetro, y retorne el mismo
+#string, pero con todas las letras convertidas a mayúsculas.
+
+#Modifique la función del ejercicio anterior para que retorne dos versiones del
+#string recibido como parámetro: primero la versión en minúsculas, y luego la
+#versión en mayúsculas.
+
+
+
+def mayusculas (x):
+   conversor = x.upper()
+   conversor2 = x.lower()
+   return print (f"{conversor} {conversor2}") 
+
+nombre = "jonas"
+
+mayusculas (nombre)
