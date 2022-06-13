@@ -3,15 +3,15 @@
 # cadena o cualquier parte de ella. Debe devolver una lista con los elementos
 # encontrados.
 
-lista_de_nombres =["Juan", "Pedro", "martin", "Lucas", "Jonas", "pepe", "adri", "fer","messi", "maradona"]
-cadena_a_buscar = [0,2,4,6,7,8,9]
+lista_de_nombres =["messi", "mes", "mesa", "brazil", "segundo"]
+cadena_a_buscar = ["mes"]
 
-def elementos_a_buscar (x,y):
-    nueva_lista = []
-    for i, nombre in enumerate(x):
-     for a in y:
-        if i == a:
-            nueva_lista.append(nombre)
-    print (nueva_lista)
+def elementos_a_buscar(cadena, lista):
+    encontrados = []
+    for i in lista:
+        if i in cadena:
+            encontrados.append(i)
+    return encontrados
 
-elementos_a_buscar (lista_de_nombres, cadena_a_buscar)
+
+print (elementos_a_buscar (cadena_a_buscar, lista_de_nombres))
