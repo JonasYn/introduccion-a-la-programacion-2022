@@ -4,7 +4,7 @@
 #
 # Completa con tu nombre, apellido y DNI
 # Nombre y Apellido: jonas ynsaurralde
-# DNI: 44378573
+# DNI: 
 ################################################################################################
 
 
